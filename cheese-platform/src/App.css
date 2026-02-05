@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 4rem;
+  text-align: center;
+  background-color: #afb06a;
+}
+
+.boppeKFT {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 400;
+  font-size: 600%;
+  color: black;
+}
+
+.nav {
+  font-family: "Courier New", Courier, monospace;
+  font-size: xx-large;
+}
+
+.termekeink {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.kapcsolat {
+  font-size: 2rem;
+  font-family: "Courier New", Courier, monospace;
+  display: flexbox;
+  color: white;
+}
+
+footer.kapcsolat {
+  justify-content: flex-end;
+  font-size: x-large;
+}
+
+img {
+  max-width: 80%;
+  height: auto;
+}
