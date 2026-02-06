@@ -16,6 +16,7 @@ function App() {
           <Route path="/viszonteladoink" element={<Viszonteladoink />} />
         </Routes>
       </div>
+      <footer id="rights">© 2026 BOPPE KFT. Minden jog fenntartva.</footer>
     </>
   );
 }
