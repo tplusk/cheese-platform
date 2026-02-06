@@ -6,7 +6,7 @@ export default function Cimlap() {
     <>
       <div>
         <header>
-          <h1 className="boppeKFT">Boppe KFT</h1>
+          <h1 id="boppeKFT">Boppe KFT</h1>
           <h3 className="holland">"HOLLAND SAJT MAGYARORSZÁGRÓL"</h3>
         </header>
 
