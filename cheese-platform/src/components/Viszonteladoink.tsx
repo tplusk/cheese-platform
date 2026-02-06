@@ -8,8 +8,8 @@ export default function Viszonteladoink() {
         <Link to={"/termekeink"}>Termékeink </Link>
         <Link to={"/kapcsolat"}>Kapcsolat</Link>
       </nav>
-      <div>
-        <div>
+      <div className="varosok">
+        <div className="hmvhely">
           <h2>Hódmezővásárhely</h2>
           <ul>
             <li>Nagyi Vegyeskereskedés Pálffy u.</li>
@@ -17,7 +17,7 @@ export default function Viszonteladoink() {
             <li>Pörkölt bolt Lehel u. 6.</li>
           </ul>
         </div>
-        <div>
+        <div className="szeged">
           <h2>Szeged</h2>
           <ul>
             <li>Kék Boci Tejbolt, Szent István tér "A" pavilon</li>
@@ -37,7 +37,7 @@ export default function Viszonteladoink() {
             </li>
           </ul>
         </div>
-        <div>
+        <div className="bp">
           <h2>Budapest</h2>
           <ul>
             <li>
