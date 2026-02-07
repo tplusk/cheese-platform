@@ -2,12 +2,17 @@ import { Link } from "react-router-dom";
 import cheese from "../assets/images/cheese.png";
 
 export default function Cimlap() {
+  const title = "Boppe KFT";
+  const holland = "HOLLAND SAJT MAGYARORSZÁGRÓL";
+  const welcomeMsg = "Üdv a honlapunkon!";
+
   return (
     <>
       <div>
         <header>
-          <h1 id="boppeKFT">Boppe KFT</h1>
-          <h3 className="holland">"HOLLAND SAJT MAGYARORSZÁGRÓL"</h3>
+          <h1 id="boppeKFT">{title}</h1>
+          <h3 id="holland">{holland}</h3>
+          <h3 id="welcomemsg">{welcomeMsg}</h3>
         </header>
 
         <nav
