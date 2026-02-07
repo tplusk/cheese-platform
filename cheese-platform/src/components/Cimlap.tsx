@@ -4,7 +4,9 @@ import cheese from "../assets/images/cheese.png";
 export default function Cimlap() {
   const title = "Boppe KFT";
   const holland = "HOLLAND SAJT MAGYARORSZÁGRÓL";
-  const welcomeMsg = "Üdv a honlapunkon!";
+
+  // can be used for temporary messages
+  // const welcomeMsg = "Üdv a honlapunkon!";
 
   return (
     <>
@@ -12,7 +14,9 @@ export default function Cimlap() {
         <header>
           <h1 id="boppeKFT">{title}</h1>
           <h3 id="holland">{holland}</h3>
-          <h3 id="welcomemsg">{welcomeMsg}</h3>
+
+          {/* for temporary use */}
+          {/* <h3 id="welcomemsg">{welcomeMsg}</h3> */}
         </header>
 
         <nav
