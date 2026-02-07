@@ -16,7 +16,7 @@ export default function Kapcsolat() {
     );
   };
   const Email = () => {
-    return <a href={`mailto:${contact.email}`}>boppe@gmail.com</a>;
+    return <a href={`mailto:${contact.email}`}>boppehu@gmail.com</a>;
   };
 
   return (
