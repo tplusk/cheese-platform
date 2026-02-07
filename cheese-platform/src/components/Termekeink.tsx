@@ -1,6 +1,27 @@
 import { Link } from "react-router-dom";
 
 export default function Termekeink() {
+  const cheese = [
+    "gouda sajt",
+    "öreg gouda",
+    "4hagymás gouda",
+    "füstölt-fokhagymás gouda",
+    "oregánó-bazomos gouda",
+    "zöldborsos gouda",
+    "köménymagos gouda",
+    "chilis gouda",
+    "medvehagymás gouda",
+    "maasdammer sajt",
+  ];
+
+  const other = [
+    "natúr joghurt",
+    "áfonyás joghurt",
+    "meggyes joghurt",
+    "tejföl",
+    "túró",
+  ];
+
   return (
     <>
       <nav className="nav">
@@ -13,25 +34,16 @@ export default function Termekeink() {
         <div id="list">
           <div>
             <ul>
-              <li>gouda sajt</li>
-              <li>öreg gouda</li>
-              <li>4hagymás gouda</li>
-              <li>füstölt-fokhagymás gouda</li>
-              <li>oregánó-bazsalikomos gouda</li>
-              <li>zöldborsos gouda</li>
-              <li>köménymagos gouda</li>
-              <li>chilis gouda</li>
-              <li>medvehagymás gouda</li>
-              <li>maasdammer sajt</li>
+              {cheese.map((cheeseType, index) => (
+                <li key={index}>{cheeseType}</li>
+              ))}
             </ul>
           </div>
           <div>
             <ul>
-              <li>natúr joghurt</li>
-              <li>áfonyás joghurt</li>
-              <li>meggyes joghurt</li>
-              <li>tejföl</li>
-              <li>túró</li>
+              {other.map((product, index) => (
+                <li key={index}>{product}</li>
+              ))}
             </ul>
           </div>
         </div>
