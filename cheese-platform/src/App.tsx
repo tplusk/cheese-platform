@@ -6,6 +6,8 @@ import Kapcsolat from "./components/Kapcsolat";
 import Viszonteladoink from "./components/Viszonteladoink";
 
 function App() {
+  const rights = "© 2026 BOPPE KFT. Minden jog fenntartva.";
+
   return (
     <>
       <div>
@@ -16,7 +18,7 @@ function App() {
           <Route path="/viszonteladoink" element={<Viszonteladoink />} />
         </Routes>
       </div>
-      <footer id="rights">© 2026 BOPPE KFT. Minden jog fenntartva.</footer>
+      <footer id="rights">{rights}</footer>
     </>
   );
 }
