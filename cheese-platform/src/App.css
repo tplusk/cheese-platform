@@ -116,4 +116,5 @@ ul {
 
 .webLink:hover {
   font-size: xx-large;
+  transition-duration: 500ms;
 }
