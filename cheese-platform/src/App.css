@@ -6,6 +6,31 @@
   background-color: #ebd457;
 }
 
+#rights {
+  padding-top: 2rem;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+}
+
+.nav {
+  font-family: "Courier New", Courier, monospace;
+  font-size: xx-large;
+}
+
+.navTitle {
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#list {
+  font-size: 1.5rem;
+}
+
+/* Cimlap */
 #boppeKFT {
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
@@ -36,26 +61,14 @@ img {
   border-radius: 37%;
 }
 
-.nav {
-  font-family: "Courier New", Courier, monospace;
-  font-size: xx-large;
-}
-
-.navTitle {
-  font-family: "Courier New", Courier, monospace;
-  color: black;
-}
-
+/* Termekeink */
 .termekeink {
   font-family: "Courier New", Courier, monospace;
   color: black;
   font-weight: 600;
 }
 
-.termekeink:hover {
-  font-size: x-large;
-}
-
+/* Kapcsolat */
 .kapcsolat {
   font-size: 2rem;
   font-family: "Courier New", Courier, monospace;
@@ -68,6 +81,11 @@ img {
   transition-duration: 500ms;
 }
 
+.webLink:hover {
+  font-size: xx-large;
+  transition-duration: 1000ms;
+}
+
 footer.kapcsolat {
   justify-content: flex-end;
   font-size: large;
@@ -75,20 +93,7 @@ footer.kapcsolat {
   justify-items: flex-start;
 }
 
-ul {
-  list-style-type: none;
-}
-
-#list {
-  font-size: 1.5rem;
-}
-
-#rights {
-  padding-top: 2rem;
-  font-family: "Courier New", Courier, monospace;
-  color: black;
-}
-
+/* Viszonteladoink */
 .varosok {
   font-family: "Courier New", Courier, monospace;
   font-weight: 800;
@@ -112,9 +117,4 @@ ul {
   font-size: xx-large;
   transition-duration: 500ms;
   padding-bottom: 3rem;
-}
-
-.webLink:hover {
-  font-size: xx-large;
-  transition-duration: 1000ms;
 }
