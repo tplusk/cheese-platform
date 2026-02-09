@@ -110,11 +110,7 @@ ul {
   padding-bottom: 3rem;
 }
 
-#email:hover {
-  cursor: pointer;
-}
-
 .webLink:hover {
   font-size: xx-large;
-  transition-duration: 500ms;
+  transition-duration: 1000ms;
 }
