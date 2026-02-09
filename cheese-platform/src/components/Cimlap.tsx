@@ -27,9 +27,15 @@ export default function Cimlap() {
             paddingBottom: "4rem",
           }}
         >
-          <Link to={"/termekeink"}>Termékeink </Link>
-          <Link to={"/kapcsolat"}>Kapcsolat </Link>
-          <Link to={"/viszonteladoink"}>Viszonteladóink</Link>
+          <span>
+            <Link to={"/termekeink"}>Termékeink </Link>
+          </span>
+          <span>
+            <Link to={"/kapcsolat"}>Kapcsolat </Link>
+          </span>
+          <span>
+            <Link to={"/viszonteladoink"}>Viszonteladóink</Link>
+          </span>
         </nav>
       </div>
       <div className="cimlap-cheese">
