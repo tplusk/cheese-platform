@@ -34,17 +34,14 @@ export default function Kapcsolat() {
         <h2 className="navTitle">Kapcsolat</h2>
       </div>
       <footer className="kapcsolat">
-        {/* <h3 id="cimunk">Címünk: {contact.cimunk}</h3> */}
         <h3 className="webLink" id="cimunk">
           Címünk:
           {Directions()}
         </h3>
-        {/* <h3 id="email">Email: {contact.email}</h3> */}
         <h3 className="webLink" id="email">
           E-mail:
           {Email()}
         </h3>
-        {/* <h3 id="telefon">Telefon: {contact.telefon}</h3> */}
         <h3 className="webLink" id="telefon">
           Telefon: {Call()}
         </h3>
