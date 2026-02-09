@@ -29,8 +29,10 @@ export default function Termekeink() {
         <Link to={"/kapcsolat"}>Kapcsolat </Link>
         <Link to={"/viszonteladoink"}>Viszonteladóink</Link>
       </nav>
+      <div>
+        <h2 className="navTitle">Termékeink</h2>
+      </div>
       <div className="termekeink">
-        <h2 className="termekeink">Termékeink</h2>
         <div id="list">
           <div>
             <ul>
