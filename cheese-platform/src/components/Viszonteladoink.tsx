@@ -36,6 +36,9 @@ export default function Viszonteladoink() {
         <Link to={"/termekeink"}>Termékeink </Link>
         <Link to={"/kapcsolat"}>Kapcsolat</Link>
       </nav>
+      <div>
+        <h2 className="navTitle">Viszonteladóink</h2>
+      </div>
       <div className="varosok">
         <div className="hmvhely">
           <h2>Hódmezővásárhely</h2>
