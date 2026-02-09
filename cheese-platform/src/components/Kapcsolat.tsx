@@ -30,7 +30,9 @@ export default function Kapcsolat() {
         <Link to={"/termekeink"}>Termékeink </Link>
         <Link to={"/viszonteladoink"}>Viszonteladóink</Link>
       </nav>
-      <h2 className="kapcsolat">Kapcsolat</h2>
+      <div>
+        <h2 className="navTitle">Kapcsolat</h2>
+      </div>
       <footer className="kapcsolat">
         {/* <h3 id="cimunk">Címünk: {contact.cimunk}</h3> */}
         <h3 className="webLink" id="cimunk">
