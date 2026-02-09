@@ -53,10 +53,7 @@ img {
 }
 
 .termekeink:hover {
-  color: rgb(255, 89, 0);
-  /* transform: translateY(-5px);
-  box-shadow: 0 15px 40px var(--medium-shadow);
-  border-color: var(--cheese-orange); */
+  font-size: x-large;
 }
 
 .kapcsolat {
