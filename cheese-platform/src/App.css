@@ -17,6 +17,15 @@
   font-size: xx-large;
 }
 
+.nav a {
+  color: black;
+}
+
+.nav a:hover {
+  font-size: x-large;
+  transition-duration: 500ms;
+}
+
 .navTitle {
   font-family: "Courier New", Courier, monospace;
   color: black;
@@ -116,5 +125,5 @@ footer.kapcsolat {
   color: rgb(0, 0, 0);
   font-size: xx-large;
   transition-duration: 500ms;
-  padding-bottom: 3rem;
+  padding-bottom: 4rem;
 }
