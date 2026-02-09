@@ -39,7 +39,7 @@ export default function Viszonteladoink() {
       <div>
         <h2 className="navTitle">Viszonteladóink</h2>
       </div>
-      <div className="varosok">
+      <main className="varosok">
         <div className="hmvhely">
           <h2>Hódmezővásárhely</h2>
           <ul>
@@ -64,7 +64,7 @@ export default function Viszonteladoink() {
             ))}
           </ul>
         </div>
-      </div>
+      </main>
     </>
   );
 }
