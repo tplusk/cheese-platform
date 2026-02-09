@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function Kapcsolat() {
   const contact = {
     cimunk: "6800 Hódmezővásárhely, Aranyág kert 6.",
-    telefon: "62/534-586",
+    telefon: "06 62 534-586",
     email: "boppehu@gmail.com",
     nyitvatartas: "Hétfő - Péntek, 8:00 – 15:00",
   };
@@ -19,6 +19,10 @@ export default function Kapcsolat() {
     return <a href={`mailto:${contact.email}`}>boppehu@gmail.com</a>;
   };
 
+  const Call = () => {
+    return <a href={`tel:${contact.telefon}`}>{contact.telefon}</a>;
+  };
+
   return (
     <>
       <nav className="nav">
@@ -30,14 +34,21 @@ export default function Kapcsolat() {
       <footer className="kapcsolat">
         {/* <h3 id="cimunk">Címünk: {contact.cimunk}</h3> */}
         <h3 className="webLink" id="cimunk">
+          Címünk:
           {Directions()}
         </h3>
         {/* <h3 id="email">Email: {contact.email}</h3> */}
         <h3 className="webLink" id="email">
+          E-mail:
           {Email()}
         </h3>
-        <h3 id="telefon">Telefon: {contact.telefon}</h3>
-        <h3 id="nyitva">Nyitvatartás: {contact.nyitvatartas}</h3>
+        {/* <h3 id="telefon">Telefon: {contact.telefon}</h3> */}
+        <h3 className="webLink" id="telefon">
+          Telefon: {Call()}
+        </h3>
+        <h3 className="webLink" id="nyitva">
+          Nyitvatartás: {contact.nyitvatartas}
+        </h3>
       </footer>
     </>
   );
