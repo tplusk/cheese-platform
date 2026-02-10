@@ -4,6 +4,7 @@ import Cimlap from "./components/Cimlap";
 import Termekeink from "./components/Termekeink";
 import Kapcsolat from "./components/Kapcsolat";
 import Viszonteladoink from "./components/Viszonteladoink";
+import NotFound from "./components/NotFound";
 
 function App() {
   const rights = "© 2026 BOPPE KFT. Minden jog fenntartva.";
@@ -16,6 +17,7 @@ function App() {
           <Route path="/termekeink" element={<Termekeink />} />
           <Route path="/kapcsolat" element={<Kapcsolat />} />
           <Route path="/viszonteladoink" element={<Viszonteladoink />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
       <footer id="rights">{rights}</footer>
