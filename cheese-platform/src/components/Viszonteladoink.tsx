@@ -32,7 +32,7 @@ export default function Viszonteladoink() {
   return (
     <>
       <nav className="nav">
-        <Link to={"/"}>Cimlap </Link>
+        <Link to={"/"}>Címlap </Link>
         <Link to={"/termekeink"}>Termékeink </Link>
         <Link to={"/kapcsolat"}>Kapcsolat</Link>
       </nav>
