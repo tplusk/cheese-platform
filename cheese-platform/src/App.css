@@ -38,9 +38,13 @@ ul {
 #list {
   font-size: 1.5rem;
 }
-
+/* NotFound.tsx */
 .notFound {
   color: red;
+}
+
+.notFound a {
+  color: black;
 }
 
 /* Cimlap */
