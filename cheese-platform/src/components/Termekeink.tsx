@@ -7,7 +7,7 @@ export default function Termekeink() {
       termek: [
         "gouda sajt",
         "öreg gouda",
-        "4hagymás gouda",
+        "négyhagymás gouda",
         "füstölt-fokhagymás gouda",
         "oregánó-bazomos gouda",
         "zöldborsos gouda",
@@ -40,20 +40,20 @@ export default function Termekeink() {
         <h2 className="navTitle">Termékeink</h2>
       </div>
       <div className="termekeink">
-        <div id="termekSajtok">
-          <ul className="sajtok">
-            {termekLista.map((category, index) => (
-              <div key={index}>
-                <h3>{category.termekTipus}</h3>
-                <ul>
-                  {category.termek.map((sajt, sajtIndex) => (
-                    <li key={sajtIndex}>{sajt}</li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </ul>
-        </div>
+        <ul className="termekKategoria">
+          {termekLista.map((category, index) => (
+            <div key={index}>
+              <h3>{category.termekTipus}</h3>
+              <ul>
+                {category.termek.map((sajt, sajtIndex) => (
+                  <li className="termek" key={sajtIndex}>
+                    {sajt}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </ul>
       </div>
     </>
   );
