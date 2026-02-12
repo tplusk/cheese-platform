@@ -108,6 +108,14 @@ img {
   color: black;
 }
 
+.kapcsolat a {
+  color: black;
+}
+
+.kapcsolat a:hover {
+  color: rgb(14, 79, 125);
+}
+
 .kapcsolat:hover {
   color: rgb(0, 0, 0);
   font-size: xx-large;
@@ -119,7 +127,7 @@ img {
   transition-duration: 1000ms;
 }
 
-footer.kapcsolat {
+main.kapcsolat {
   justify-content: flex-end;
   font-size: large;
   color: black;
