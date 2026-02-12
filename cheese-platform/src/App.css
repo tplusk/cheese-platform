@@ -81,8 +81,24 @@ img {
 /* Termekeink */
 .termekeink {
   font-family: "Courier New", Courier, monospace;
-  color: black;
+  color: rgb(0, 0, 0);
   font-weight: 600;
+}
+
+.termekeink:hover {
+  color: rgb(0, 0, 0);
+  font-size: xx-large;
+  transition-duration: 500ms;
+}
+
+.termekKategoria {
+  display: flex;
+  justify-content: first baseline;
+}
+
+.termek {
+  display: flex;
+  justify-content: flex-start;
 }
 
 /* Kapcsolat */
@@ -111,27 +127,16 @@ footer.kapcsolat {
 }
 
 /* Viszonteladoink */
-.varosok {
+.varos,
+.uzletek {
   font-family: "Courier New", Courier, monospace;
   font-weight: 800;
   color: black;
 }
 
-.hmvhely:hover {
+.varos:hover,
+.uzletek:hover {
   color: rgb(0, 0, 0);
   font-size: xx-large;
   transition-duration: 500ms;
-}
-
-.szeged:hover {
-  color: rgb(0, 0, 0);
-  font-size: xx-large;
-  transition-duration: 500ms;
-}
-
-.bp:hover {
-  color: rgb(0, 0, 0);
-  font-size: xx-large;
-  transition-duration: 500ms;
-  padding-bottom: 4rem;
 }
