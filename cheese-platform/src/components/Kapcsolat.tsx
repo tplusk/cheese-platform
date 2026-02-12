@@ -33,22 +33,20 @@ export default function Kapcsolat() {
       <div>
         <h2 className="navTitle">Kapcsolat</h2>
       </div>
-      <footer className="kapcsolat">
+      <main className="kapcsolat">
         <h3 className="webLink" id="cimunk">
-          Címünk:
-          {directions()}
+          <p id="cimunk">Címünk: {directions()}</p>
         </h3>
         <h3 className="webLink" id="email">
-          E-mail:
-          {email()}
+          <p id="email">E-mail: {email()}</p>
         </h3>
         <h3 className="webLink" id="telefon">
-          Telefon: {call()}
+          <p id="telefon">Telefon: {call()}</p>
         </h3>
         <h3 className="webLink" id="nyitva">
           Nyitvatartás: {contact.nyitvatartas}
         </h3>
-      </footer>
+      </main>
     </>
   );
 }
