@@ -8,18 +8,18 @@ export default function Kapcsolat() {
     nyitvatartas: "Hétfő - Péntek, 8:00 – 15:00",
   };
 
-  const Directions = () => {
+  const directions = () => {
     return (
       <a href="https://www.google.com/maps/place/H%C3%B3dmez%C5%91v%C3%A1s%C3%A1rhely,+Arany%C3%A1g+Kert+6,+6800+Hungary/@46.431227,20.3592618,17z/data=!3m1!4b1!4m6!3m5!1s0x47446f23eb8828fb:0x4909917fc05a20f1!8m2!3d46.431227!4d20.3618367!16s%2Fg%2F11y3ll0zzz?entry=ttu&g_ep=EgoyMDI2MDIwNC4wIKXMDSoKLDEwMDc5MjA2OUgBUAM%3D">
         {contact.cimunk}
       </a>
     );
   };
-  const Email = () => {
+  const email = () => {
     return <a href={`mailto:${contact.email}`}>boppehu@gmail.com</a>;
   };
 
-  const Call = () => {
+  const call = () => {
     return <a href={`tel:${contact.telefon}`}>{contact.telefon}</a>;
   };
 
@@ -36,14 +36,14 @@ export default function Kapcsolat() {
       <footer className="kapcsolat">
         <h3 className="webLink" id="cimunk">
           Címünk:
-          {Directions()}
+          {directions()}
         </h3>
         <h3 className="webLink" id="email">
           E-mail:
-          {Email()}
+          {email()}
         </h3>
         <h3 className="webLink" id="telefon">
-          Telefon: {Call()}
+          Telefon: {call()}
         </h3>
         <h3 className="webLink" id="nyitva">
           Nyitvatartás: {contact.nyitvatartas}
